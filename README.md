@@ -37,6 +37,7 @@ If you want to scan your network environment for mgmt port for example fortigate
 # You’ll need pandas and openpyxl installed (pip install pandas openpyxl) to write Excel files. I removed the unused import openpyxl from your code since Pandas handles it internally via to_excel.
 #
 # How to Use:
+# Replace lines 256-259 with your proper email addresses and the API password
 # Ensure allips.txt is in the same directory with one IP per line.
 # Run the script. It will:
 # Scan ports and write to text files (one line per IP with multiple ports).
